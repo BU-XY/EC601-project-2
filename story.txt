@@ -1,0 +1,14 @@
+Analize the football fans' feelings about the performance their supporting teams.
+
+MVP:
+tweets or ins of users
+football results
+
+users:
+football fans
+
+basic user stories:
+their comments of the performance
+
+prioritize:
+Tweets or ins, then football results.
