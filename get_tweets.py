@@ -29,7 +29,7 @@ author = OAuth1 (
 url_api = "https://api.twitter.com/1.1/search/tweets.json"
 
 #search for different contents by modifying "covid"
-q = '%40covid -filter:retweets -filter:replies' # Twitter handle of Amazon India
+q = '%40covid -filter:retweets -filter:replies' 
 
 
 parameters = {'q': q, 'count': 100, 'lang': 'en',  'result_type': 'recent'}
