@@ -2,19 +2,7 @@
 
 Twitter API Keys:
 The first necessary step is to have a Twitter account and get the necessary credentials on the Twitter developer platform to access the Twitter API.
-By registration on https://developer.twitter.com/ I have got the four necessary authentication codes:
-
-Access Token
-1441894841265262595-ZNbKjnV8LIQCz0C6ntVHpXGoOKPJ5j
-
-Access Token Secret
-T18zEtLLq1JoqoPVLeE56TLb1WVOC5qCge6NS7NFJDvHZ
-
-API Key
-lGhEtjifVUr7xyM7U6xrD8EqQ
-
-API Key Secret
-WNc81uNSrSH5vzqT93pSAjtFdVivSt3zOBYaaIN6C4qwJpe4s5
+By registration on https://developer.twitter.com/ I have got the four necessary authentication codes.
 
 Then create an Auther Client connection.
 
