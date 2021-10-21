@@ -17,7 +17,7 @@ author = OAuth1 (
     os.environ['api_secret'],
     os.environ['access_token'],
     os.environ['access_token_secret']
-)
+) #environment variables
 
 
 url_api = "https://api.twitter.com/1.1/search/tweets.json"
