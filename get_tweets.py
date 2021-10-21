@@ -7,22 +7,16 @@ Created on Sat Sep 25 19:50:17 2021
 
 import requests
 import bs4
+import os
 from bs4 import BeautifulSoup
 from requests_oauthlib import OAuth1
 
-author_info = {
-    'api_key':'lGhEtjifVUr7xyM7U6xrD8EqQ',
-    'api_secret':'WNc81uNSrSH5vzqT93pSAjtFdVivSt3zOBYaaIN6C4qwJpe4s5',
-    'access_token':'1441894841265262595-ZNbKjnV8LIQCz0C6ntVHpXGoOKPJ5j',
-    'access_token_secret':'T18zEtLLq1JoqoPVLeE56TLb1WVOC5qCge6NS7NFJDvHZ'
-}
-
 
 author = OAuth1 (
-    author_info['api_key'],
-    author_info['api_secret'],
-    author_info['access_token'],
-    author_info['access_token_secret']
+    os.environ['api_key'],
+    os.environ['api_secret'],
+    os.environ['access_token'],
+    os.environ['access_token_secret']
 )
 
 
