@@ -19,4 +19,4 @@ In the document there are some examples I tried.
 
 
 Author:
-Yi Xiang U42741183
+Yi Xiang
