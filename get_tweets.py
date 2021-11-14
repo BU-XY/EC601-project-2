@@ -33,3 +33,6 @@ api_results = requests.get(url_api, params=parameters, auth=author)
 tweets = api_results.json()
 
 information = [BeautifulSoup(tweet['text'], 'html5lib').get_text() for tweet in tweets['statuses']]
+
+//if you want to skip the test, uncomment the following line.
+//print(information)
